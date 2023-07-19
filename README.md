@@ -1,6 +1,6 @@
 # interests
 
-A small python script that calulates earning of interests on a savings account using the 360 day-year which is used by european banks.
+A small python script that calulates the earnings of interests on a savings account using the 360 day-year method used by european banks.
 
 You can provide multiple transactions that happen throughout the year with deposits and withdrawals:
 
@@ -21,7 +21,6 @@ print(f"Total interest earned: {total_interest_earned:.2f}")
 
 prints:
 ```
-21.02.2023 - 23.02.2023: Days[  2] Balance[  10,000.0] Interests[   1.28]
 21.02.2023 - 23.02.2023: Days[  2] Balance[  10,000.0] Interests[   2.06]
 23.02.2023 - 26.05.2023: Days[ 93] Balance[  20,000.0] Interests[ 191.17]
 26.05.2023 - 17.07.2023: Days[ 51] Balance[  15,000.0] Interests[  78.63]
